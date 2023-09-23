@@ -24,7 +24,13 @@ p span {
     color: red;
 }
 
+a:link {
+  color: blue;
+}
 
+a:visited {
+  color: blueviolet;
+}
 
 a:hover {
     text-decoration: none;
