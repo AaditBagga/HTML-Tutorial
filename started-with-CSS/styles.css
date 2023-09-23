@@ -8,29 +8,31 @@ p,li {
 li {
     list-style-type: none;
   }
-  li.special,
+li.special,
   span.special {
     color: orange;
     font-weight: bold;
   }
   
-  li em {
+li em {
     color: rebeccapurple;
   }
-  h1 + p {
+h1 + p {
     font-size: 200%;
   }
-  p span {
+p span {
     color: red;
 }
+
 a:link {
-    color: blue;
-  }
-  
-  a:visited {
-    color: blueviolet;
-  }
-  a:hover {
+  color: blue;
+}
+
+a:visited {
+  color: blueviolet;
+}
+
+a:hover {
     text-decoration: none;
   }
   
