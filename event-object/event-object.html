@@ -9,6 +9,7 @@
         margin: 10px;
         font-size: 300%;
         padding: 30px;
+        border: 5px solid black;
       };
     </style>
   </head>
@@ -26,8 +27,15 @@
         e.target.style.backgroundColor = rndCol;
         console.log(e);
       }
+     
+      function borderChange(e) {
+        const rndBorderColor = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
+        e.target.style.borderColor = rndBorderColor;
+        console.log(e);
+      }
 
       btn.addEventListener('click', bgChange);
+      btn.addEventListener('click', borderChange);
     </script>
   </body>
 </html>
