@@ -2,3 +2,17 @@ Aadit Bagga
 JS 1)
 Facebook Graph API 
 http://developers.facebook.com/docs/reference/api/
+
+JS 2)
+Both Chrome and Safari (as well as most modern web browsers)
+use a combination of interpretation and compilation to handle JavaScript.
+
+The combination of interpretation and compilation is often referred to as 
+"interpretation with a JIT compiler." This approach allows browsers 
+to strike a balance between fast startup times (from interpretation) 
+and optimized execution speeds (from compilation).
+
+Both Chrome and Safari use their own JavaScript engines. Chrome uses the V8 JavaScript engine,
+while Safari uses the JavaScriptCore engine (also known as Nitro). 
+These engines incorporate advanced techniques for optimizing JavaScript code execution, 
+making web applications run faster and more efficiently.
