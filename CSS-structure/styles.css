@@ -6,3 +6,6 @@ p {
   body p {
     font-size: 500%;
   }  
+.special {
+    color: turquoise;
+}
