@@ -1,0 +1,21 @@
+developer.chrome.com/:1 While parsing speculation rules: A rule contains an unknown key: "eagerness". <script type=​"speculationrules">​…​</script>​
+document.getElementById('hello').textContent = 'Hello, Console!'
+'Hello, Console!'
+"Hello, Console!"
+'Hello, Console!'
+5 + 15
+20
+function add(a, b=20) {
+  return a + b;
+}
+undefined
+function add(a=5, b=20) {
+  return a + b;
+}
+undefined
+function add(a, b=20) {
+  return a + b;
+}
+undefined
+add(25);
+45
