@@ -1,10 +1,13 @@
 /* Create your test CSS here */
-
+h1 {
+    color: floralwhite;
+    background-color: palevioletred;
+}
 p {
     color: red;
   }
   body p {
-    font-size: 500%;
+    font-size: 150%;
   }  
 .special {
     color: turquoise;
